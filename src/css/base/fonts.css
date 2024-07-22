@@ -1,0 +1,33 @@
+@layer base {
+  @font-face {
+    font-family: "Outfit";
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url("../fonts/Outfit-Bold.woff") format("woff");
+  }
+
+  @font-face {
+    font-family: "Outfit";
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: url("../fonts/Outfit-Semibold.woff") format("woff");
+  }
+
+  @font-face {
+    font-family: "Proxima Nova Alt";
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url("../fonts/ProximaNovaAlt-Regular.woff") format("woff");
+  }
+
+  @font-face {
+    font-family: "Proxima Nova Alt";
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url("../fonts/ProximaNovaAlt-Bold.woff") format("woff");
+  }
+}

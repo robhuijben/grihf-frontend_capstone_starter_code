@@ -1,0 +1,26 @@
+@layer base {
+  .font-heading {
+    font-family: theme("fontFamily.heading");
+  }
+
+  .font-body {
+    font-family: theme("fontFamily.body");
+  }
+
+  body {
+    @apply font-body font-bold text-base text-black;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-heading;
+  }
+
+  h1 {
+    @apply text-4xl;
+  }
+}

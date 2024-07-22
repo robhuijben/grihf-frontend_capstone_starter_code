@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="../dist/css/index.css" />
+  </head>
+  <body>
+    <div class="container flex flex-col gap-y-6 py-8">
+      <h1 class="text-center">Sign-up</h1>
+      <p class="lead text-center">
+        Already a member?
+        <a class="text-blue-700 hover:underline" href="/">Login</a>.
+      </p>
+      <form class="w-full md:w-[600px] mx-auto flex flex-col gap-y-7">
+        <div class="flex flex-col gap-y-5">
+          <div class="flex flex-col gap-y-2">
+            <label>Role</label>
+            <select>
+              <option value="patient">Patient</option>
+              <option value="doctor">Doctor</option>
+            </select>
+          </div>
+          <div class="flex flex-col gap-y-2">
+            <label for="name">Name</label>
+            <input
+              id="name"
+              type="text"
+              placeholder="Enter your name"
+              required />
+          </div>
+          <div class="flex flex-col gap-y-2">
+            <label for="phone">Phone number</label>
+            <input
+              id="phone"
+              type="tel"
+              placeholder="Enter your phone number"
+              required />
+          </div>
+          <div class="flex flex-col gap-y-2">
+            <label for="email">Email address</label>
+            <input
+              id="email"
+              type="email"
+              placeholder="Enter your email"
+              required />
+          </div>
+          <div class="flex flex-col gap-y-2">
+            <label for="password">Password</label>
+            <input
+              id="password"
+              type="password"
+              placeholder="Enter your password"
+              required />
+          </div>
+        </div>
+        <div class="flex justify-center gap-x-5">
+          <button class="btn" type="submit">Submit registration</button>
+          <button class="btn btn-danger" type="reset">Reset form</button>
+        </div>
+      </form>
+    </div>
+
+    <script src="../node_modules/flowbite/dist/flowbite.min.js"></script>
+  </body>
+</html>

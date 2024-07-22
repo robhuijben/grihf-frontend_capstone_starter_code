@@ -1,0 +1,30 @@
+@layer components {
+  .btn {
+    color: theme("colors.white");
+    background-color: theme("colors.blue.700");
+    border-radius: theme("borderRadius.lg");
+    padding: theme("spacing.4") theme("spacing.6");
+    transition: background-color 0.2s ease-in-out;
+
+    &:hover {
+      background-color: theme("colors.green.700");
+    }
+  }
+
+  .btn-danger {
+    background-color: theme(colors.red.500);
+
+    &:hover {
+      background-color: theme("colors.red.700");
+    }
+  }
+
+  .link {
+    color: theme("colors.black");
+    transition: color 0.2s ease-in-out;
+
+    &:hover {
+      color: theme("colors.blue.700");
+    }
+  }
+}
